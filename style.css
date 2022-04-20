@@ -55,6 +55,7 @@ ROJO NEÓN: #F05454*/
     }
     .nav-menu a{
         color: #222831;
+        transition: border 0.25s;
     }
     .nav-menu a:hover{
         border-bottom: 5px solid #F05454;
@@ -174,6 +175,7 @@ ROJO NEÓN: #F05454*/
         box-shadow:  0 2px 6px rgba(0,0,0,0.25);
         border-radius: 5px;
         background-color: white;
+        transition: box-shadow 0.25s;
     }
     .card:hover{
         box-shadow:  0 2px 6px #222831;
@@ -254,6 +256,7 @@ ROJO NEÓN: #F05454*/
     .footer-container .footer-menu li a{
         color: #dddddd;
         text-decoration: none;
+        transition: border 0.25s;
     }
     .footer-container .footer-menu li a:hover{
         border-bottom: 5px solid #F05454;
@@ -350,6 +353,7 @@ ROJO NEÓN: #F05454*/
         align-items: center;
         box-shadow:  0 2px 6px rgba(0,0,0,0.25);
         border-radius: 5px;
+        transition: box-shadow 0.25s;
     }
     .pr-card:hover{
         box-shadow:  0 2px 6px #222831;
@@ -434,9 +438,11 @@ ROJO NEÓN: #F05454*/
         border-radius: 15px;
         color: white;
         background-color: #222831;
+        transition: background-color 0.25s;
     }
     input[type="submit"]:hover {
         background-color: #F05454;
+        animation: hovera 0.5s ease-in 0 infinite;
     }
 @media only screen and (min-width:1240px){
     .carrousel-container{
@@ -658,3 +664,4 @@ ROJO NEÓN: #F05454*/
         font-size: 14px;
     }
 }
+/*ANIMATIONS*/
