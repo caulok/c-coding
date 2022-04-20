@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <title>c_coding - Contact</title>
+</head>
+<body>
+    <!-- HEADER---------------------------------->
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="../index.html"><img src="../media/logo.svg" alt="Logo de Ramiro Caulo"></a>
+            </div>
+            <div class="nav-search">
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search-bar">
+                    <img src="../media/search.svg" alt="Icono de búsqueda">
+                    <input type="search" name="searchbar" placeholder="Search">
+                    <label for="searchbar"></label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- FIN HEADER------------------------------>
+    <main>
+        <div class="section-container" id="contact-banner">
+            <div class="banner-text">
+                <h2>Contact</h2>
+            </div>
+        </div>
+    </main>
+    <section class="contact-form">
+        <div class="form-text">
+            <h2>Let's meet!</h2>
+        </div>
+        <div class="form">
+            <form action="" method="post">
+                <label id="how" for="mail">How can we contact you?</label>
+                <input class="mail" type="mail" name="mail" required placeholder="Mail" required>
+                <p>Choose the service:</p>
+                <label class="type-services" for="services">Create a website</label>
+                <input type="radio" name="services" value="Create a website">
+                <label class="type-services" for="services">Modify a website</label>
+                <input type="radio" name="services" value="Modify a website">
+                <textarea class="text" name="text-area" cols="30" rows="10" placeholder="Write here some details about your project..."></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <!-- FOOTER---------------------------------->
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="https://github.com/caulok"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.behance.net/ramirocaulo"><i class="fa-brands fa-behance"></i></a>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <p>c_coding 2022 | All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
