@@ -52,7 +52,7 @@ ROJO NEÓN: #F05454*/
         padding: 10px;
     }
     .navbar-toggler{
-        background-color: #222831;
+        background-color: rgba(34, 40, 49, 0.2);
     }
     /*FIN NAV MENU*/
     .header-container{
