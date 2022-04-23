@@ -35,6 +35,26 @@ ROJO NEÓN: #F05454*/
     .wpp-container:hover{
         box-shadow: 0 2px 6px #222831;
     }
+     /*NAV MENU*/
+    nav.navbar.navbar-expand-md.navbar-dark {
+        background: #dddddd;
+    }
+    .navbar-expand-md .navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        color: #222831;
+    }
+    ul.navbar-nav {
+        align-items: center;
+    }
+    li.nav-item {
+        padding: 10px;
+    }
+    .navbar-toggler{
+        background-color: #222831;
+    }
+    /*FIN NAV MENU*/
     .header-container{
         display: flex;
         flex-direction: row;
@@ -146,6 +166,12 @@ ROJO NEÓN: #F05454*/
         background-color: #dddddd;
         padding: 60px 0;
     }
+    .feat-projects h2{
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding-bottom: 15px;
+    }
     .container-projects{
         width: 100%;
     }
@@ -227,6 +253,10 @@ ROJO NEÓN: #F05454*/
         font-size: 95px;
         margin-bottom: 20px;
         color: #222831;
+        transition: all 0.5s;
+    }
+    .circle-img i:hover{
+        opacity: 0.9;
     }
     .circle-p{
         text-align: center;
@@ -673,4 +703,26 @@ ROJO NEÓN: #F05454*/
     label#how, input.mail, textarea.text, input[type="submit"] {
         font-size: 14px;
     }
+}
+/*Carousel Bootstrap*/
+img.d-block.w-100 {
+    filter: brightness(0.3);
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+@media (min-width: 576px){
+.d-sm-block {bottom: 0;}
+.carousel-indicators {margin-bottom:0;}
+}
+@media (min-width:769px){
+.d-sm-block {bottom: 1rem;}
+}
+@media (max-width: 575px){
+.carousel-indicators {display: none;}
+.carousel-caption {bottom: -15px;}
+.carousel-caption p{display: none;}
 }
