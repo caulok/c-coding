@@ -45,6 +45,16 @@ ROJO NEÓN: #F05454*/
     .navbar-dark .navbar-nav .nav-link{
         color: #222831;
     }
+    .navbar-dark .navbar-nav .nav-link:hover{
+        color: #222831;
+    }
+    a.nav-link{
+        padding: 0 25px;
+        transition: all 0.25s;
+    }
+    a.nav-link:hover {
+        border-bottom: 5px solid #F05454;
+    }
     ul.navbar-nav {
         align-items: center;
     }
