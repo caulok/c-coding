@@ -719,8 +719,8 @@ img.d-block.w-100 {
     filter: brightness(0.3);
 }
 .carousel-indicators [data-bs-target] {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     margin: 0 5px;
     border-radius: 50%;
 }
