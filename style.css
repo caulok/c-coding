@@ -416,11 +416,11 @@ ROJO NEÓN: #F05454*/
         width: 100%;
         max-height: 300px;
         border-bottom: 5px solid #F05454;
-        opacity: 0.9;
+        filter: brightness(0.7);
         transition: all 0.5s;
     }
     .pr-im-container img:hover{
-        opacity: 1;
+        filter: brightness(1);
     }
     .pr-text-container{
         margin-top: 25px;
