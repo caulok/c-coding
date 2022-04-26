@@ -63,6 +63,7 @@ ROJO NEÓN: #F05454*/
     }
     .navbar-toggler{
         background-color: rgba(34, 40, 49, 0.2);
+        border: none;
     }
     /*FIN NAV MENU*/
     .header-container{
@@ -172,6 +173,9 @@ ROJO NEÓN: #F05454*/
     #bt-home{
         margin-right: 150px;
     }
+    #bt-home h2{
+        font-weight: bold;
+    }
     .feat-projects{
         background-color: #dddddd;
         padding: 60px 0;
@@ -268,9 +272,9 @@ ROJO NEÓN: #F05454*/
     .circle-img i:hover{
         opacity: 0.9;
     }
-    .circle-p{
+    .circle-p {
         text-align: center;
-        margin-top: 30px;
+        width: 160px;
     }
     .footer-container{
         width: 100%;
@@ -382,7 +386,6 @@ ROJO NEÓN: #F05454*/
         margin: auto;
         margin-bottom: 40px;
         text-align: center;
-        font-weight: bold;
         font-size: 25px;
     }
     .video{
@@ -413,12 +416,24 @@ ROJO NEÓN: #F05454*/
         width: 100%;
         max-height: 300px;
         border-bottom: 5px solid #F05454;
+        opacity: 0.9;
+        transition: all 0.5s;
+    }
+    .pr-im-container img:hover{
+        opacity: 1;
     }
     .pr-text-container{
         margin-top: 25px;
         margin-bottom: 25px;
         text-align: center;
         line-height: 1.5em;
+    }
+    .pr-text-container h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .pr-text-container p {
+        margin-bottom: 0;
     }
     
     /*PÁGINA CONTACT*/
@@ -473,6 +488,7 @@ ROJO NEÓN: #F05454*/
         margin: 0 10px;
         width: 30px;
         height: 1em;
+        vertical-align: middle;
     }
     textarea{
         display: block;
@@ -596,9 +612,8 @@ ROJO NEÓN: #F05454*/
     }
 }
 @media only screen and (max-width:599px){
-    .logo-container img {
+    .navbar-brand img {
         height: 30px;
-        margin-left: 0;
     }
     .header-container{
         justify-content: center;
@@ -621,6 +636,12 @@ ROJO NEÓN: #F05454*/
     #bt-home {
         margin: auto;
         text-align: center;
+    }
+    .banner-text h2 {
+        font-size: 25px;
+    }
+    .feat-projects h2{
+        font-size: 25px;
     }
     .container-projects h2 {
         font-size: 25px;
@@ -712,6 +733,9 @@ ROJO NEÓN: #F05454*/
     }
     label#how, input.mail, textarea.text, input[type="submit"] {
         font-size: 14px;
+    }
+    .carousel-caption.d-sm-block h5 {
+        font-size: 18px;
     }
 }
 /*Carousel Bootstrap*/
