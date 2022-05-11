@@ -60,7 +60,7 @@
 * ul.navbar-nav {
   align-items: center;
 }
-* li.nav-item {
+* li.nav-item, * .footer-container .footer-menu ul li {
   padding: 10px;
 }
 * .navbar-toggler {
@@ -286,16 +286,15 @@
   list-style: none;
   padding-left: 0;
 }
-* .footer-container .footer-menu li {
-  padding: 0 10px;
+* .footer-container .footer-menu ul li {
   margin: 0 15px;
 }
-* .footer-container .footer-menu li a {
+* .footer-container .footer-menu ul li a {
   color: #dddddd;
   text-decoration: none;
   transition: all 0.25s;
 }
-* .footer-container .footer-menu li a:hover {
+* .footer-container .footer-menu ul li a:hover {
   border-bottom: 5px solid #F05378;
 }
 * .footer-container p {
@@ -410,26 +409,28 @@
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
-* .people .person--1 #img-cont1, * .people .person--2 #img-cont1, * .people .person--3 #img-cont1 {
+* .people .person--1 .img--cont1, * .people .person--2 .img--cont1, * .people .person--3 .img--cont1 {
   height: 250px;
   width: 300px;
-  background-image: url(media/woman1.jpg);
+  background-image: url(media/img-cont1.jpg);
   background-size: cover;
+  background-position-x: center;
   border-radius: 12px 12px 0 0;
   filter: brightness(0.95);
 }
-* .people .person--1 #img-cont2, * .people .person--2 #img-cont2, * .people .person--3 #img-cont2 {
+* .people .person--1 .img--cont2, * .people .person--2 .img--cont2, * .people .person--3 .img--cont2 {
   height: 250px;
   width: 300px;
-  background-image: url(media/man1.jpg);
+  background-image: url(media/img-cont2.jpg);
   background-size: cover;
+  background-position-x: center;
   border-radius: 12px 12px 0 0;
   filter: brightness(0.95);
 }
-* .people .person--1 #img-cont3, * .people .person--2 #img-cont3, * .people .person--3 #img-cont3 {
+* .people .person--1 .img--cont3, * .people .person--2 .img--cont3, * .people .person--3 .img--cont3 {
   height: 250px;
   width: 300px;
-  background-image: url(media/man2.jpg);
+  background-image: url(media/img-cont3.jpg);
   background-size: cover;
   background-position-x: center;
   border-radius: 12px 12px 0 0;

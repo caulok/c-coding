@@ -339,21 +339,23 @@ sans-serif;
             flex-direction: row;
             list-style: none;
             padding-left: 0;
-        }
-
-        .footer-menu li {
-            padding: 0 10px;
+            
+            li {
+            @extend .nav-item;
             margin: 0 15px;
-
-            a {
-                color: $color2;
-                text-decoration: none;
-                transition: all 0.25s;
-
-                &:hover {
-                    border-bottom: 5px solid $color3;
+    
+                a {
+                    color: $color2;
+                    text-decoration: none;
+                    transition: all 0.25s;
+    
+                    &:hover {
+                        border-bottom: 5px solid $color3;
+                    }
                 }
             }
+
+        
 
         }
 
@@ -479,7 +481,7 @@ sans-serif;
             }
         }
 
-        .person--1, .person--2, .person--3{
+        @mixin personcards {
             height: 400px;
             width: 300px;
             background-color: white;
@@ -487,32 +489,29 @@ sans-serif;
             align-items: center;
             border-radius: 12px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-            
-            #img-cont1{
-                height: 250px;
-                width: 300px;
-                background-image: url(media/woman1.jpg);
-                background-size:cover;
-                border-radius: 12px 12px 0 0;
-                filter: brightness(0.95);
-            }
-            #img-cont2{
-                height: 250px;
-                width: 300px;
-                background-image: url(media/man1.jpg);
-                background-size: cover;
-                border-radius: 12px 12px 0 0;
-                filter: brightness(0.95);
-            }
-            #img-cont3{
-                height: 250px;
-                width: 300px;
-                background-image: url(media/man2.jpg);
-                background-size: cover;
-                background-position-x: center;
-                border-radius: 12px 12px 0 0;
-                filter: brightness(0.95);
-            }
+        }
+
+        .person--1, .person--2, .person--3{
+            @include personcards;
+
+            //Mapa
+            $mapa1: (
+                1: url(media/img-cont1.jpg),
+                2: url(media/img-cont2.jpg),
+                3: url(media/img-cont3.jpg)
+                );
+
+                @each $number, $pic in $mapa1{
+                    .img--cont#{$number}{
+                        height: 250px;
+                        width: 300px;
+                        background-image: $pic;
+                        background-size: cover;
+                        background-position-x: center;
+                        border-radius: 12px 12px 0 0;
+                        filter: brightness(0.95);
+                    }
+                }
 
             h5{
                 text-align: center;
