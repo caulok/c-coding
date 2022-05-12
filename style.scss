@@ -83,6 +83,7 @@ sans-serif;
         background-color: rgba(34, 40, 49, 0.2);
         border: none;
     }
+
     /*FIN NAV MENU*/
 
     .header-container {
@@ -121,7 +122,7 @@ sans-serif;
         padding: 0 10px;
         margin-left: 15px;
         margin-right: 15px;
-        
+
         a {
             text-decoration: none;
         }
@@ -339,23 +340,23 @@ sans-serif;
             flex-direction: row;
             list-style: none;
             padding-left: 0;
-            
+
             li {
-            @extend .nav-item;
-            margin: 0 15px;
-    
+                @extend .nav-item;
+                margin: 0 15px;
+
                 a {
                     color: $color2;
                     text-decoration: none;
                     transition: all 0.25s;
-    
+
                     &:hover {
                         border-bottom: 5px solid $color3;
                     }
                 }
             }
 
-        
+
 
         }
 
@@ -461,21 +462,21 @@ sans-serif;
         }
     }
 
-    .people{
+    .people {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         margin: 60px 0;
-        background: rgb(255,255,255);
-        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(221,221,221,0.7) 10%, rgba(221,221,221,0.7) 80%, rgba(255,255,255,1) 100%);
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(221, 221, 221, 0.7) 10%, rgba(221, 221, 221, 0.7) 80%, rgba(255, 255, 255, 1) 100%);
         padding: 60px 0;
 
-        .title-container{
+        .title-container {
             width: 300px;
 
-            h3{
+            h3 {
                 color: $color1;
                 text-align: center;
             }
@@ -491,36 +492,37 @@ sans-serif;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
         }
 
-        .person--1, .person--2, .person--3{
+        .person--1,
+        .person--2,
+        .person--3 {
             @include personcards;
 
             //Mapa
-            $mapa1: (
-                1: url(media/img-cont1.jpg),
-                2: url(media/img-cont2.jpg),
-                3: url(media/img-cont3.jpg)
-                );
+            $mapa1: (1: url(media/img-cont1.jpg),
+                    2: url(media/img-cont2.jpg),
+                    3: url(media/img-cont3.jpg));
 
-                @each $number, $pic in $mapa1{
-                    .img--cont#{$number}{
-                        height: 250px;
-                        width: 300px;
-                        background-image: $pic;
-                        background-size: cover;
-                        background-position-x: center;
-                        border-radius: 12px 12px 0 0;
-                        filter: brightness(0.95);
-                    }
+            @each $number,
+            $pic in $mapa1 {
+                .img--cont#{$number} {
+                    height: 250px;
+                    width: 300px;
+                    background-image: $pic;
+                    background-size: cover;
+                    background-position-x: center;
+                    border-radius: 12px 12px 0 0;
+                    filter: brightness(0.95);
                 }
+            }
 
-            h5{
+            h5 {
                 text-align: center;
                 width: 90%;
                 margin: 25px auto;
                 font-weight: bold;
             }
 
-            p{
+            p {
                 text-align: center;
                 width: 90%;
                 margin: 0 auto;
@@ -1015,5 +1017,4 @@ img.d-block.w-100 {
     }
 }
 
-    // MAPS
-
+// MAPS

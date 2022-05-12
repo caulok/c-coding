@@ -400,7 +400,9 @@
   color: #222831;
   text-align: center;
 }
-* .people .person--1, * .people .person--2, * .people .person--3 {
+* .people .person--1,
+* .people .person--2,
+* .people .person--3 {
   height: 400px;
   width: 300px;
   background-color: white;
@@ -409,7 +411,9 @@
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
-* .people .person--1 .img--cont1, * .people .person--2 .img--cont1, * .people .person--3 .img--cont1 {
+* .people .person--1 .img--cont1,
+* .people .person--2 .img--cont1,
+* .people .person--3 .img--cont1 {
   height: 250px;
   width: 300px;
   background-image: url(media/img-cont1.jpg);
@@ -418,7 +422,9 @@
   border-radius: 12px 12px 0 0;
   filter: brightness(0.95);
 }
-* .people .person--1 .img--cont2, * .people .person--2 .img--cont2, * .people .person--3 .img--cont2 {
+* .people .person--1 .img--cont2,
+* .people .person--2 .img--cont2,
+* .people .person--3 .img--cont2 {
   height: 250px;
   width: 300px;
   background-image: url(media/img-cont2.jpg);
@@ -427,7 +433,9 @@
   border-radius: 12px 12px 0 0;
   filter: brightness(0.95);
 }
-* .people .person--1 .img--cont3, * .people .person--2 .img--cont3, * .people .person--3 .img--cont3 {
+* .people .person--1 .img--cont3,
+* .people .person--2 .img--cont3,
+* .people .person--3 .img--cont3 {
   height: 250px;
   width: 300px;
   background-image: url(media/img-cont3.jpg);
@@ -436,13 +444,17 @@
   border-radius: 12px 12px 0 0;
   filter: brightness(0.95);
 }
-* .people .person--1 h5, * .people .person--2 h5, * .people .person--3 h5 {
+* .people .person--1 h5,
+* .people .person--2 h5,
+* .people .person--3 h5 {
   text-align: center;
   width: 90%;
   margin: 25px auto;
   font-weight: bold;
 }
-* .people .person--1 p, * .people .person--2 p, * .people .person--3 p {
+* .people .person--1 p,
+* .people .person--2 p,
+* .people .person--3 p {
   text-align: center;
   width: 90%;
   margin: 0 auto;
