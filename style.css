@@ -929,6 +929,9 @@ input[type=submit] {
   .lifestyle .history {
     flex: 100%;
   }
+  .lifestyle .history h2 {
+    margin-left: 0;
+  }
   .lifestyle .history p {
     width: 100%;
   }
