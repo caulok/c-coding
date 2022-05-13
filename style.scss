@@ -490,6 +490,11 @@ sans-serif;
             align-items: center;
             border-radius: 12px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+            transition: 0.25s;
+
+            &:hover{
+                animation: zoom 1s ease 0s 1 normal both;
+            }
         }
 
         .person--1,
@@ -525,7 +530,7 @@ sans-serif;
             p {
                 text-align: center;
                 width: 90%;
-                margin: 0 auto;
+                margin: 0 auto 10px;
             }
         }
     }
@@ -550,11 +555,11 @@ sans-serif;
         justify-content: center;
         align-items: center;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        transition: all 0.5s;
+        border-radius: 12px;
 
         &:hover {
             box-shadow: 0 2px 6px $color1;
+            animation: zoom 1s ease-in-out 0s 1 normal both;
         }
     }
 
@@ -968,6 +973,64 @@ sans-serif;
     }
 }
 
+@media only screen and (max-width:1025px) {
+    .people .title-container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .people {
+
+        .person--1,
+        .person--2,
+        .person--3 {
+            width: 200px;
+            height: auto;
+
+            .img--cont1,
+            .img--cont2,
+            .img--cont3 {
+                width: unset !important;
+                height: 180px;
+            }
+
+            h5 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .people {
+        margin: 0;
+        padding-top: 0;
+
+        .person--1,
+        .person--2,
+        .person--3 {
+            width: 220px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .footer-container {
+        .footer-menu {
+            ul {
+                li {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
 /*Carrousel Bootstrap*/
 img.d-block.w-100 {
     filter: brightness(0.3);
@@ -1017,4 +1080,14 @@ img.d-block.w-100 {
     }
 }
 
-// MAPS
+@keyframes zoom {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+		transform: scale(1);
+	}
+
+	100% {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+		transform: scale(1.1);
+	}
+}
