@@ -925,6 +925,17 @@ input[type=submit] {
   .footer-container .footer-menu ul li {
     margin: 0;
   }
+
+  .lifestyle .history {
+    flex: 100%;
+  }
+  .lifestyle .history p {
+    width: 100%;
+  }
+  .lifestyle .playlist {
+    flex: 100%;
+    margin-top: 30px;
+  }
 }
 /*Carrousel Bootstrap*/
 img.d-block.w-100 {
