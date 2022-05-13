@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Manrope", Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   /*NAV MENU*/
   /*FIN NAV MENU*/
   /*BANNERS DE PÁGINAS*/
@@ -239,7 +239,7 @@
 }
 * .services h2 {
   display: block;
-  font-size: 38px;
+  font-size: 35px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -342,11 +342,11 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 * #contact-banner {
-  background-image: url(../media/mail-box.jpg);
+  background-image: url(media/mail-box.jpg);
   background-position-y: bottom;
 }
 * #projects-banner {
-  background-image: url(../media/projects-banner.jpg);
+  background-image: url(media/projects-banner.jpg);
   background-position-y: bottom;
 }
 * .lifestyle {
@@ -369,7 +369,7 @@
 * .history p {
   width: 90%;
   margin-right: 25px;
-  text-align: left;
+  text-align: justify;
   line-height: 30px;
 }
 * .playlist {
@@ -507,7 +507,7 @@
   line-height: 1.5em;
 }
 * .pr-text-container h3 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
 }
 * .pr-text-container p {
@@ -749,7 +749,7 @@
   }
 
   .feat-projects h2 {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .container-projects h2 {
@@ -846,9 +846,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
-  .pr-text-container h3,
-p {
+  .pr-text-container h3, .pr-text-container p {
     font-size: 14px;
   }
 
@@ -904,7 +902,7 @@ input[type=submit] {
   .people .person--1 h5,
 .people .person--2 h5,
 .people .person--3 h5 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .people .person--1 p,
 .people .person--2 p,
@@ -979,7 +977,7 @@ img.d-block.w-100 {
   }
   100% {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 }
 
