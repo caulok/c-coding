@@ -1,7 +1,7 @@
 /*VARIABLES COLORES*/
-$color1: #222831;
+$color1: rgb(34, 40, 49);
 $color2: #dddddd;
-$color3: #F05378;
+$color3: #f05378;
 
 /*VARIABLES FUENTE*/
 $font: 'Manrope',
@@ -492,7 +492,7 @@ sans-serif;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
             transition: 0.25s;
 
-            &:hover{
+            &:hover {
                 animation: zoom 1s ease 0s 1 normal both;
             }
         }
@@ -567,6 +567,7 @@ sans-serif;
         width: 100%;
         max-height: 300px;
         border-bottom: 5px solid $color3;
+        border-radius: 12px 12px 0 0;
         filter: brightness(0.7);
         transition: all 0.5s;
 
@@ -1081,13 +1082,13 @@ img.d-block.w-100 {
 }
 
 @keyframes zoom {
-	0% {
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-		transform: scale(1);
-	}
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        transform: scale(1);
+    }
 
-	100% {
-		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-		transform: scale(1.1);
-	}
+    100% {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        transform: scale(1.1);
+    }
 }

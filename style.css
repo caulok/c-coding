@@ -29,7 +29,7 @@
   transition: all 0.5s;
 }
 * .wpp-container:hover {
-  box-shadow: 0 2px 6px #222831;
+  box-shadow: 0 2px 6px rgb(34, 40, 49);
   opacity: 0.8;
 }
 * i.fa-brands.fa-whatsapp {
@@ -45,17 +45,17 @@
   justify-content: flex-end;
 }
 * .navbar-dark .navbar-nav .nav-link {
-  color: #222831;
+  color: rgb(34, 40, 49);
 }
 * .navbar-dark .navbar-nav .nav-link:hover {
-  color: #222831;
+  color: rgb(34, 40, 49);
 }
 * a.nav-link {
   padding: 0 25px;
   transition: all 0.25s;
 }
 * a.nav-link:hover {
-  border-bottom: 5px solid #F05378;
+  border-bottom: 5px solid #f05378;
 }
 * ul.navbar-nav {
   align-items: center;
@@ -83,11 +83,11 @@
   margin-left: 25px;
 }
 * .nav-menu a {
-  color: #222831;
+  color: rgb(34, 40, 49);
   transition: all 0.25s;
 }
 * .nav-menu a:hover {
-  border-bottom: 5px solid #F05378;
+  border-bottom: 5px solid #f05378;
 }
 * .nav-menu ul {
   margin-bottom: 0;
@@ -221,12 +221,12 @@
   transition: all 0.5s;
 }
 * .card:hover {
-  box-shadow: 0 2px 6px #222831;
+  box-shadow: 0 2px 6px rgb(34, 40, 49);
 }
 * .card-img img {
   width: 300px;
   max-height: 200px;
-  border-bottom: 5px solid #F05378;
+  border-bottom: 5px solid #f05378;
 }
 * .card-p {
   margin-top: 25px;
@@ -262,7 +262,7 @@
 * .circle-img i {
   font-size: 95px;
   margin-bottom: 20px;
-  color: #222831;
+  color: rgb(34, 40, 49);
   transition: all 0.5s;
 }
 * .circle-img i:hover {
@@ -274,7 +274,7 @@
 }
 * .footer-container {
   width: 100%;
-  background-color: #222831;
+  background-color: rgb(34, 40, 49);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -295,7 +295,7 @@
   transition: all 0.25s;
 }
 * .footer-container .footer-menu ul li a:hover {
-  border-bottom: 5px solid #F05378;
+  border-bottom: 5px solid #f05378;
 }
 * .footer-container p {
   color: #dddddd;
@@ -397,7 +397,7 @@
   width: 300px;
 }
 * .people .title-container h3 {
-  color: #222831;
+  color: rgb(34, 40, 49);
   text-align: center;
 }
 * .people .person--1,
@@ -486,13 +486,14 @@
   border-radius: 12px;
 }
 * .pr-card:hover {
-  box-shadow: 0 2px 6px #222831;
+  box-shadow: 0 2px 6px rgb(34, 40, 49);
   animation: zoom 1s ease-in-out 0s 1 normal both;
 }
 * .pr-im-container img {
   width: 100%;
   max-height: 300px;
-  border-bottom: 5px solid #F05378;
+  border-bottom: 5px solid #f05378;
+  border-radius: 12px 12px 0 0;
   filter: brightness(0.7);
   transition: all 0.5s;
 }
@@ -579,11 +580,11 @@
   border: none;
   border-radius: 15px;
   color: white;
-  background-color: #222831;
+  background-color: rgb(34, 40, 49);
   transition: all 0.25s;
 }
 * input[type=submit]:hover {
-  background-color: #F05378;
+  background-color: #f05378;
 }
 
 @media only screen and (min-width: 1240px) {
