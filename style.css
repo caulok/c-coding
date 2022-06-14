@@ -25,7 +25,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   right: 30px;
   bottom: 30px;
-  z-index: 4;
+  z-index: 3;
   transition: all 0.5s;
 }
 * .wpp-container:hover {
@@ -516,7 +516,7 @@
     grid-column-gap: 15px;
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   .logo-container img {
     height: 30px;
   }
@@ -582,7 +582,7 @@
   }
 
   .circle-cards {
-    width: 300px;
+    width: 350px !important;
     margin-bottom: 40px;
   }
 
